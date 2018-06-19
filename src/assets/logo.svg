@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+    <defs>
+        <linearGradient id="a" x1="100%" x2="0%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#51D067"/>
+            <stop offset="100%" stop-color="#17AB31"/>
+        </linearGradient>
+        <linearGradient id="b" x1="0%" x2="0%" y1="29.61%" y2="65.345%">
+            <stop offset="0%" stop-color="#51D067"/>
+            <stop offset="49.429%" stop-color="#17AB31"/>
+            <stop offset="100%" stop-color="#51D067"/>
+        </linearGradient>
+        <linearGradient id="c" x1="91.239%" x2="13.613%" y1="100%" y2="16.139%">
+            <stop offset="0%" stop-color="#17AB31"/>
+            <stop offset="100%" stop-color="#51D067"/>
+        </linearGradient>
+        <linearGradient id="d" x1="0%" x2="13.615%" y1="100%" y2="11.29%">
+            <stop offset="0%" stop-color="#17AB31"/>
+            <stop offset="100%" stop-color="#51D067"/>
+        </linearGradient>
+        <linearGradient id="e" x1="100%" x2="0%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF006"/>
+            <stop offset="100%" stop-color="#FFB302"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="url(#a)" d="M32.027 4.045a2.513 2.513 0 0 1 .692-.036c.093-.003.187-.005.281-.006v.047a2.5 2.5 0 0 1 0 4.9V9c-6.627 0-12 5.373-12 12 0 .337.014.67.041 1H16.03c-.02-.33-.029-.664-.029-1 0-8.97 6.949-16.319 16.027-16.955z"/>
+        <path fill="#51D067" d="M12.113 19.03c.126-.02.255-.03.387-.03h6a2.5 2.5 0 1 1 0 5h-5.53a8 8 0 0 0 0 16v5C5.805 44.984 0 39.17 0 32c0-6.882 5.347-12.514 12.113-12.97z"/>
+        <path stroke="url(#b)" stroke-linecap="round" stroke-linejoin="round" stroke-width="5" d="M53 25.5H42.937c-9.006 0-16.308 7.301-16.308 16.308C26.63 50.065 32.801 57.019 41 58"/>
+        <path fill="url(#c)" d="M41.871 55.616c-1.654.963-5.724 1.99-8.672-.463-1.774-2.065-1.69-3.145.254-3.241 2.038 1.906 4.844 3.14 8.418 3.704z"/>
+        <path fill="url(#d)" d="M53.339 23.005a2.538 2.538 0 0 1 .612.036C59.58 23.522 64 28.245 64 34c0 6.037-4.863 10.937-10.884 11v-5.001a6 6 0 0 0 0-11.998v-.03a2.5 2.5 0 0 1 0-4.942v-.028c.074 0 .149.002.223.004z"/>
+        <path fill="#51D067" d="M12.5 40h41a2.5 2.5 0 1 1 0 5h-41a2.5 2.5 0 1 1 0-5z"/>
+        <circle cx="53.895" cy="53.684" r="4.211" fill="url(#e)"/>
+        <circle cx="10.947" cy="53.684" r="4.211" fill="url(#e)"/>
+    </g>
+</svg>

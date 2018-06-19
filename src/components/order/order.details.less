@@ -1,0 +1,110 @@
+@import "~antd/lib/style/themes/default.less";
+.headerList {
+    margin-bottom: 4px;
+}
+
+.tabsCard {
+     :global {
+        .ant-card-head {
+            padding: 0 16px;
+        }
+    }
+}
+
+.noData {
+    color: @disabled-color;
+    text-align: center;
+    line-height: 64px;
+    font-size: 16px;
+    i {
+        font-size: 24px;
+        margin-right: 16px;
+        position: relative;
+        top: 3px;
+    }
+}
+
+.heading {
+    color: @heading-color;
+    font-size: 18px;
+    margin: 10px;
+    text-align: center;
+}
+
+.stepDescription {
+    font-size: 14px;
+    position: relative;
+    left: 38px;
+    &>div {
+        margin-top: 8px;
+        margin-bottom: 4px;
+    }
+}
+
+.textSecondary {
+    color: @text-color-secondary;
+    text-align: center;
+}
+
+@media screen and (max-width: @screen-sm) {
+    .stepDescription {
+        left: 8px;
+    }
+}
+
+.orderOther {
+    line-height: 82px;
+    height: 80px;
+    text-align: right;
+    padding: 0px 20px;
+    border-bottom: 1px solid #dedede;
+    font-size: 14px;
+    color: #333333;
+    span {
+        margin-left: 20px;
+    }
+}
+
+.goodslist {
+    >img {
+        width: 70px;
+        height: 70px;
+        display: block;
+        float: left;
+    }
+    >div {
+        margin-left: 90px;
+        overflow: hidden;
+        h1 {
+            font-size: 14px;
+            height: 20px;
+            line-height: 20px;
+            overflow: hidden;
+            text-align: left
+        }
+        h2 {
+            height: 32px;
+            font-size: 12px;
+            color: #666666;
+            text-align: left
+        }
+        p {
+            font-size: 12px;
+            text-align: left
+        }
+    }
+}
+
+.orderLoading {
+    position: absolute;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .1);
+    z-index: 110;
+    top: 0px;
+    left: 0px;
+}

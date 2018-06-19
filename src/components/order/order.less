@@ -1,0 +1,232 @@
+.orderTile {
+    height: 62px;
+    border-bottom: 1px #e8e8e8 solid;
+    background: #ffffff;
+    line-height: 60px;
+    font-size: 14px;
+    color: #333333;
+    margin-top: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+:global {
+    .ant-tabs-tab {
+        span {
+            color: #e28080;
+            margin-left: 5px;
+        }
+    }
+}
+
+.PageConainer {
+    padding: 30px 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.orderListContaienr {
+    background-color: #fff;
+    position: relative;
+    min-height: 200px;
+}
+
+.orderLoading {
+    position: absolute;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .1);
+    z-index: 110;
+    top: 0px;
+    left: 0px;
+}
+
+.OrderItemC {
+    margin-top: 30px;
+    .title {
+        height: 40px;
+        overflow: hidden;
+        border-top: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8;
+        line-height: 38px;
+        background: #ffffff;
+        font-size: 14px;
+        color: #333333;
+        .infor {
+            text-indent: 20px;
+            span {
+                color: #fd8162;
+                margin: 0px 30px;
+            }
+        }
+        .role {
+            text-align: right;
+            padding-right: 20px;
+        }
+    }
+}
+
+.orderContent {
+    .row {
+        border-right: 1px solid #e8e8e8;
+        padding: 20px 0px;
+        display: flex;
+        display: -webkit-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 14px;
+        color: #333333;
+        min-height: 120px;
+        overflow: hidden;
+    }
+    border-bottom: 1px solid #e8e8e8;
+    .infor {
+        overflow: hidden;
+        padding: 20px;
+        height: 120px;
+        display: -webkit-flex;
+        display: flex;
+        align-items: center;
+        >img {
+            width: 80px;
+            height: 80px;
+            border: 1px solid #e8e8e8;
+            display: block;
+            flex: 0 0 auto;
+        }
+        .name {
+            flex: 1 0 auto;
+            margin-left: 20px;
+            h1 {
+                font-size: 14px;
+                color: #333333;
+                line-height: 24px;
+                height: 24px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                margin: 0px;
+            }
+            h2 {
+                font-size: 12px;
+                line-height: 18px;
+                height: 36px;
+                overflow: hidden;
+                color: #666666;
+                margin: 0px;
+            }
+            p {
+                font-size: 12px;
+                line-height: 15px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                color: #999999;
+                height: 15px;
+                margin: 0px;
+                margin-top: 5px;
+            }
+        }
+        .other {
+            text-align: right;
+            margin: 15px 0px;
+            width: 60px;
+            h1 {
+                font-size: 14px;
+                color: #333333;
+                line-height: 30px;
+                height: 30px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            p {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                line-height: 20px;
+                font-size: 14px;
+                height: 20px;
+            }
+        }
+    }
+}
+
+.OrderItemAmount {
+    width: 100%;
+    p {
+        font-size: 0px;
+        line-height: 20px;
+        height: 20px;
+        b {
+            font-size: 12px;
+            display: inline-block;
+            color: #333333;
+            text-align: right;
+            width: 50%;
+        }
+        span {
+            font-size: 12px;
+            display: inline-block;
+            color: #fc6b47;
+            text-align: left;
+            width: 50%;
+        }
+    }
+}
+
+.buyMessage {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 10%;
+    width: 100%;
+    span {
+        white-space: nowrap
+    }
+}
+
+.setting {
+    padding: 0px 20px;
+    width: 208px;
+    text-align: left;
+    button {
+        font-size: 12px;
+        margin: 5px 10px;
+    }
+}
+
+.goodslist {
+    >img {
+        width: 70px;
+        height: 70px;
+        display: block;
+        float: left;
+    }
+    >div {
+        margin-left: 90px;
+        overflow: hidden;
+        h1 {
+            font-size: 14px;
+            height: 20px;
+            line-height: 20px;
+            overflow: hidden;
+            text-align: left
+        }
+        h2 {
+            height: 32px;
+            font-size: 12px;
+            color: #666666;
+            text-align: left
+        }
+        p {
+            font-size: 12px;
+            text-align: left
+        }
+    }
+}
